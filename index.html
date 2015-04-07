@@ -5,6 +5,7 @@
     <title>Find An Agent</title>
 </head>
 <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+<link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
 <link rel="stylesheet" href="build/css/public.css">
 <body>
     <section class="hero">
@@ -121,17 +122,68 @@
     <div class="divider"></div>
     
     <section class="quote">
-        <ul>
-            <li></li>
-            <li></li>
+        <ul class="menu">
+            <li class="active">Testimonials</li>
+            <li>Recent Feedbacks</li>
         </ul>
-        <i></i>
-        <h2></h2>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+        <i class="icon-quotes-left"></i>
+        
+        <article id="art_01">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores iure autem hic neque ipsum iste sapiente ipsam assumenda officiis unde, esse aliquid similique fugiat, tempore quo minima laborum laboriosam sit.</h2>
+        </article>
+        
+        <article id="art_02" class="current">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, possimus! Doloremque ut perferendis consequatur excepturi praesentium, ab quo deserunt? Sit pariatur sapiente, dolorem quos culpa repudiandae et? </h2>
+        </article>
+        
+        <article id="art_03">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus culpa dolore porro perferendis consequuntur voluptate corrupti animi quia nesciunt optio iusto, a soluta officia at voluptates delectus nostrum ea nulla.</h2>
+        </article>
+        
+        <ul class="people">
+            <li class="item1" href="#art_01">
+                <div class="text_wrap">
+                    <p class="name">PROTODOME</p>
+                    <p class="position">Musician</p>
+                </div>
+            </li>
+            <li class="item2 active" href="#art_02">
+                <div class="text_wrap">
+                    <p class="name">Hachikuji Mayo</p>
+                    <p class="position">Front-end Dev</p>
+                </div>
+            </li>
+            <li class="item3" href="#art_03">
+                <div class="text_wrap">
+                    <p class="name">Miao Miao</p>
+                    <p class="position">A Fucking Cat</p>
+                </div>
+            </li>
         </ul>
     </section>
+    
+    <section class="bottom">
+        <form action="">
+            <label for="">Find An Agent</label><input type="text" placeholder="Enter a Suburb"><input type="button" value="SEARCH">
+        </form>
+    </section>
+    
+    <footer>
+        <ul class="foo_list">
+            <li>Blog</li>
+            <li>Contact US</li>
+            <li>About Us</li>
+            <li>FAQs</li>
+            <li>Privacy</li>
+            <li>Disclaimer</li>
+        </ul>
+        <ul class="social">
+            <li><a class="icon-soundcloud" href="https://soundcloud.com/894mayo"></a></li>
+            <li><a class="icon-github" href="https://github.com/chaosmaple/3p3w-homework"></a></li>
+        </ul>
+    </footer>
+    
+    <script src="build/vendor/jquery.min.js"></script>
+    <script src="build/js/index.js"></script>
 </body>
 </html>
